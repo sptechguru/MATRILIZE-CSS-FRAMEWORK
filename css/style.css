@@ -1,0 +1,46 @@
+		*{
+			/*font-family: 'Josefin Slab', serif;*/
+      font-family: arial;
+      color: black;
+      font-size: 20px;
+      font-family: 'Great Vibes', cursive;
+      font-family: 'Dancing Script', cursive;
+		}
+
+		section
+		{
+			width: 90%; margin: auto; margin-top: 120px;
+		}
+		hr
+		{
+			text-align: center;
+		}
+
+
+
+.navbar {
+  overflow: hidden;
+  /*background-color:blue;*/
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+.about--part1, .about--part2 ,
+{
+  opacity: 0;
+}
+
+.about--part1.animated , .about--part2.animated
+{
+  opacity: 1;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slide nav</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- /////ONLNE//// -->
+
+<style type="text/css">
+  footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+  <div class="navbar">
+  <div class="container">   
+  <a href="#">SPTECH</a>
+  <a href="#">palsantosh1698@gmail.com</a>
+  <a href="#">+91 8839102688</a>
+  <a href="#" class="right">Login</a>
+</div>
+    </div>
+
+
+   <nav class="blue"> <!-- navbar content here  -->
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/4.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="images/5.jpg"></a>
+      <a href="#name"><span class="white-text name">SANTOSH PAL</span></a>
+      <a href="#email"><span class="white-text email">santoshpal698@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>HOME</a></li>
+    <li><a href="#!">ABOUT</a></li>
+    <li><div class="divider"></div>SERVICES</li>
+    <li><a class="subheader">GALLERY</a></li>
+    <li><a class="waves-effect" href="#!">CONTACT</a></li>
+  </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+   </nav>
+
+
+<footer class="p-5">
+  <p>Footer</p>
+</footer>
+
+
+<script type="text/javascript">
+	 $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+	
+</body>
+</html>
